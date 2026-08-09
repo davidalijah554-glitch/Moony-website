@@ -1,0 +1,614 @@
+
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background: #050505;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+h1 {
+  color:Gold;
+  font:Times New Roman;
+  font-size:26px;
+  margin-right: 34px;
+}
+.icons{
+  height:24px;
+  width:24px;
+  margin:13px;
+  filter: invert(1);
+  transition: transform 0.3s ease;
+}
+.icons:hover{
+    transform: scale(1.15);
+}
+.
+.game-images img {
+  width:180px;
+  height:120px;
+  object-fit:contain;
+}
+img {
+  height:150px;
+  width:150px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background:#111;
+    border: 1px solid rgba(255, 215, 0, 0.30);
+
+    border-radius: 18px;
+    padding: 12px 0;
+    margin: 15px;
+box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+    padding: 12px 18px;
+}
+  
+.game-images img {
+  width:180px;
+  height:120px;
+  object-fit:contain;
+}
+
+.mobile {
+  margin-top:30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+}
+
+.mobile img {
+  width:150px;
+  height:120px;
+  object-fit:contain;
+  gap:20px;
+}
+
+.game-images {
+  height:auto;
+  width:100%;
+  display:flex;
+  align-items:center;
+  text-align:right;
+  margin-top:80px;
+  gap:20px;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
+
+.game-images img,
+.mobile img {
+  transition:0.3s ease;
+  
+}
+
+.game-images img:hover,
+.mobile img:hover {
+  transform:scale(1.05);
+}
+h2 {
+  color:Gold;
+  font-size: 25px;
+  font-family: Impact, sans-serif;
+  margin-top:45px;
+  text-align:center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+  margin-bottom:20px;
+}
+h3 {
+  color: white;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+  font-weight: normal;
+  padding: 0 15px;
+  margin-bottom: 25px;
+}
+h4 {
+  color:white;
+  font-size: 15px;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align:center;
+  margin-top:30px;
+}
+button {
+  text-align:center;
+  background: linear-gradient(135deg, #FFD700, #F4B400);
+color: black;
+border: none;
+font-weight: bold;
+  padding:14px 20px;
+  font-family: Arial, sans-serif;
+letter-spacing: 1px;
+  border-radius:30px;
+  font-size:16px;
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+transition: 0.3s;
+
+}
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.5);
+  background-color:green;
+  
+}
+.button{
+  text-align:center;
+  margin-top:35px;
+
+}
+
+@import url('https://googleapis.com');
+h6 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #FFD700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5),
+               0 0 15px rgba(255, 215, 0, 0.3);
+  margin: 0 0 20px;
+}
+
+p {
+  color:gold;
+  font-size: 15px;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    font-weight: normal;
+    padding:0 15px ;
+  
+}
+h5 {
+  color:red;
+  font-size: 15px;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    font-weight: normal;
+    padding:0 15px ;
+}
+.button2 {
+  text-align: center;
+  margin-top: 68px;
+  display: flex;
+  gap: 19px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
+h9 {
+  margin-top:10px;
+  color:black;
+  font-family: Times New Roman;
+  font-size: 12px;
+}
+.mm img {
+    width: 360px;
+    height: 220px;
+    margin-top:1px;
+    border-radius:25px;
+    box-shadow:2px 2px 3px black;
+    
+  
+}
+h8 {
+  color:Gold;
+  font-size:25px;
+  margin-top:38px;
+  text-align:center;
+  font-family:Times New Roman;
+  
+}
+h {
+  color:gold;
+  font-size: 18px;
+  font-family:Times New Roman;
+}
+h10 {
+  color:Red;
+  font-size:16px;
+  font-family:Times New Roman;
+  margin-top:15px;
+}
+.fcfc {
+  margin-top:30px;
+  text-align:center;
+  display:flex;
+}
+.screen img {
+  width:310px;
+  border-radius:6px;
+  height:auto;
+  border-radius:20px;
+  margin-top:10px;
+  box-shadow:5px 3px 5px black;
+  text-align:center;
+  margin-left:25px;
+}
+.bum img{
+    width:310px;
+  border-radius:6px;
+  height:auto;
+  border-radius:20px;
+  margin-top:10px;
+  box-shadow:5px 3px 5px black;
+  gap:40px;
+  display:flex;
+   text-align:center;
+    margin-left:25px;
+}
+.freefire {
+  width:500px;
+  height:auto;
+}
+h9 {
+  font-size:16px;
+  color:black;
+}
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+.socials {
+  display: flex;
+}
+.logo{
+    height:42px;
+    width:auto;
+}
+.cod {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: contain;
+}
+.ff {
+  width:109px;
+  height:100px;
+  object-fit:contain;
+}
+
+
+
+
+.game-card {
+  background: black;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+
+  /* Solid outer card layer structure */
+  background-color: black;
+  border: 2px solid #2d2d35;
+  border-radius: 16px;
+  
+  /* Layout and dimensions */
+  width: 170px;
+  height: 170px;
+  padding: 16px;
+  box-sizing: border-box;
+  
+  /* Centering the logo inside the card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Optimized styling for the game logos inside your cards */
+
+.game-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.two {
+  width:130px !important;
+  height: 130px !important;
+ margin-left:-18px;
+ display:flex;
+ justify-content:space-around;
+}
+.game-btn {
+  min-width: 140px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 3px 0 #b8860b,
+    0 8px 15px rgba(255, 215, 0, 0.25);
+}
+.moonify-title {
+    color: #FFD700;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+    text-shadow: 0 0 12px rgba(255, 215, 0, 0.5);
+}
+.moonify-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 45px;
+    padding: 0 20px;
+    line-height: 1.7;
+    font-weight: normal;
+}
+.moonify-section-title {
+    color: #FFD700;
+    text-align: center;
+    font-size: 25px;
+    margin: 35px 0 25px;
+    letter-spacing: 1px;
+}
+.check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #FFD700;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.moonify-benefits h3 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 500px;
+    margin: 14px auto;
+    padding: 14px 18px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    background: #0b0b0b;
+    font-size: 16px;
+    font-weight: normal;
+}
+.moonify-audience h3 {
+    max-width: 500px;
+    margin: 12px auto;
+    padding: 12px 18px;
+    border-left: 3px solid #FFD700;
+    background: #0b0b0b;
+    font-size: 16px;
+    font-weight: normal;
+}
+.moonify-difference h3 {
+    max-width: 650px;
+    margin: 16px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: normal;
+    text-align: center;
+}
+#a {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 35px;
+    background: linear-gradient(#FFD700, #F4B400);
+    color: #000;
+    border: 3px solid #555;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 0 #8a6500;
+    -webkit-tap-highlight-color: transparent;
+}
+.pay-title {
+    color: #FFD700;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 12px rgba(255, 215, 0, 0.45);
+}
+.registration-intro {
+    max-width: 600px;
+    margin: 12px auto;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+.packages-title {
+    color: #FFD700;
+    text-align: center;
+    font-size: 26px;
+    margin: 45px 0 25px;
+    letter-spacing: 1px;
+}
+.moonify-packages h1 {
+    max-width: 500px;
+    margin: 15px auto;
+    padding: 18px 20px;
+    border: 1px solid #333;
+    border-radius: 14px;
+    background: #0b0b0b;
+    color: white;
+    font-size: 20px;
+}
+.renewal-info {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.payment-section-title {
+    color: #FFD700;
+    text-align: center;
+    font-size: 26px;
+    margin: 45px 0 25px;
+    letter-spacing: 1px;
+}
+.account-details {
+    background: #111;
+    border: 1px solid #FFD700;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin: 20px auto;
+    max-width: 450px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+
+.account-details h4 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 12px 0;
+    line-height: 1.4;
+}
+.payment-notice {
+    background: #160b0b;
+    border: 1px solid #ff4444;
+    border-left: 4px solid #ff4444;
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 20px auto;
+    max-width: 450px;
+    box-shadow: 0 0 12px rgba(255, 68, 68, 0.15);
+}
+
+.payment-notice h5 {
+    color: #ff7777;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+.verification {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.verification h2 {
+    color: #FFD700;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.verification p {
+    color: #FFD700;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.verification h3 {
+    color: #eee;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.verification-note {
+    max-width: 450px;
+    margin: 15px auto;
+    padding: 0 15px;
+}
+
+.verification-note h5 {
+    color: #ff7777;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+.verify-now {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    color: #fff;
+    background: #25D366;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.about-title {
+    color: #FFD700;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    margin: 30px 0 20px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.35);
+}
+#changePage {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 35px;
+
+    background: linear-gradient(145deg, #FFD700, #F4B400);
+    color: black;
+
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+
+    border: 2px solid #9c7800;
+    border-radius: 30px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+
+    cursor: pointer;
+    transition: 0.2s ease;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#changePage:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 12px rgba(255, 215, 0, 0.3);
+}
+
+#changePage:active {
+    transform: scale(0.98);
+}
+#m {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 35px;
+
+    background: linear-gradient(145deg, #FFD700, #F4B400);
+    color: black;
+
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+
+    border: 2px solid #9c7800;
+    border-radius: 30px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+
+    cursor: pointer;
+    transition: 0.2s ease;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#m:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 12px rgba(255, 215, 0, 0.3);
+}
+
+#m:active {
+    transform: scale(0.98);
+}

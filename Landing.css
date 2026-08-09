@@ -1,0 +1,62 @@
+body {
+  background-color:black;
+  
+}
+.landing{
+    text-align:center;
+}
+
+.landing img{
+    width:280px;
+    height:auto;
+    margin-top:60px;
+}
+
+.moo button {
+    display: block;
+    margin:20px auto;
+    color: black;
+    background: linear-gradient(#FFD700, #F4B400);
+    padding: 16px 35px;
+    border-radius: 30px;
+    margin-top:1px;
+    font-family: Arial, sans-serif;
+font-weight: bold;
+    border: 3px solid #555;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.2;
+}
+.moo button:hover{
+    background: #e6b800;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px gold;
+}
+.intro{
+    color:#bfbfbf;
+    text-align:center;
+    width:85%;
+    margin:-20px auto 40px;
+    line-height:1.7;
+    font-size:16px;
+}
+.landing img{
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-8px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
